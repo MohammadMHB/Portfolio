@@ -1,49 +1,60 @@
-# Mohammad Mohebianfar | Professional Front-End Portfolio
+# Mohammad Mohebianfar — Portfolio
 
-![Version](https://img.shields.io/badge/version-2.0.0-green.svg?style=flat&color=00ff88)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+> Personal portfolio website showcasing my work as a **Django / Full-Stack Developer**.
 
-> **Live Demo:** [mohammadmohebian.ir](https://mohammadmohebian.ir)
+🌐 **Live Website:** https://mohammadmohebian.ir
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-</p>
+## Overview
 
-<br />
+This repository contains my personal portfolio website, built to present my background, technical skills, selected projects, and ways to get in touch.
 
-## 📖 About The Project
+## ✨ Highlights
 
-This is my personal portfolio website as a **Front-End Developer**. It showcases my skills, projects, education, and professional experience with a modern dark-themed design, smooth animations, and a fully responsive layout.
+- Responsive design for desktop, tablet, and mobile
+- Modern dark UI with glassmorphism-inspired components
+- Smooth scroll and section animations
+- Interactive navigation with active-section highlighting
+- Animated skill and statistics sections
+- Project showcase and contact section
+- Persian/English-friendly typography
 
-### ✨ Key Features
+## 🛠️ Tech Stack
 
-- 🎨 **Modern Dark Theme** with neon green accent (#00ff88)
-- 📱 **100% Responsive** — Perfect on mobile, tablet, and desktop
-- ⚡ **Smooth Scroll Animations** with Intersection Observer API
-- 🧩 **Complete Sections:** Hero, About, Education, Skills, Projects, Contact
-- 💾 **LocalStorage Integration** — Contact messages saved in browser
-- 🍔 **Mobile Hamburger Menu** with smooth toggle
-- 🔍 **Auto-highlight Navigation** based on scroll position
-- 🎭 **Glassmorphism Effects** with backdrop-blur
-- 📊 **Animated Skill Bars** that trigger on scroll
-- 🏆 **Statistics Counter Section** (years of experience, projects, etc.)
+- **HTML5**
+- **CSS3** — Flexbox, Grid, custom properties, responsive design
+- **JavaScript (ES6+)**
+- **Intersection Observer API** — scroll-based animations
+- **LocalStorage** — client-side contact form data
+- **Vazirmatn** — Persian/English typography
 
-<br />
+## 📂 Main Sections
 
-## 🛠️ Technologies Used
+- Hero
+- About
+- Skills
+- Education
+- Projects
+- Contact
 
-| Category | Technology |
-|----------|------------|
-| **Structure** | HTML5 |
-| **Styling** | CSS3 (Custom Properties, Flexbox, CSS Grid) |
-| **Interactivity** | Vanilla JavaScript (ES6+) |
-| **Font** | Vazirmatn (Persian font with English support) |
-| **Animations** | CSS Transitions + Intersection Observer |
-| **Icons** | Emoji / Text-based (no external libraries) |
-| **Hosting** | GitHub Pages / Any static hosting |
+## 🚀 Run Locally
 
-<br />
+```bash
+git clone https://github.com/MohammadMHB/Portfolio.git
+cd Portfolio
+```
+
+Open the main HTML file in your browser, or serve the folder with any static web server.
+
+## 🎯 Purpose
+
+The portfolio is designed as a professional showcase for **employment, freelance opportunities, and client work**.
+
+## 📬 Contact
+
+- GitHub: https://github.com/MohammadMHB
+- Website: https://mohammadmohebian.ir
+- Email: mohammad.mhbn@gmail.com
+
+---
+
+⭐ If you like the project, consider giving it a star.
