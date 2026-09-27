@@ -1,0 +1,18 @@
+{
+  "name": "Mohammad Mohebianfar — Full-Stack Developer",
+  "short_name": "Mohammad",
+  "description": "Full-Stack Developer building SaaS products, business systems, e-commerce platforms and modern web applications.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07080c",
+  "theme_color": "#08090d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
