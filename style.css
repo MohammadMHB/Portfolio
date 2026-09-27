@@ -62,3 +62,11 @@
   .skill-card p{font-size:9px}
   .project-visual,.featured .project-visual{min-height:200px}
 }
+
+/* Simple inventory visual */
+.inventory-icon{width:150px;height:105px;position:relative;margin:10px auto 14px;display:block}
+.inventory-icon .box{position:absolute;width:46px;height:38px;border:2px solid currentColor;border-radius:7px;display:block;transform:rotate(0deg)}
+.inventory-icon .box-a{left:8px;top:43px}.inventory-icon .box-b{left:52px;top:20px}.inventory-icon .box-c{left:96px;top:43px}
+.inventory-icon:before{content:"";position:absolute;left:31px;top:0;width:88px;height:2px;background:currentColor;border-radius:2px;opacity:.5}
+.inventory-icon:after{content:"";position:absolute;left:75px;top:0;width:2px;height:18px;background:currentColor;opacity:.5}
+@media(max-width:640px){.inventory-icon{transform:scale(.9);margin-bottom:8px}}
