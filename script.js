@@ -75,6 +75,6 @@ if(projectForm){
     const brief='Project inquiry\n\nName: '+data.get('name')+'\nProject type: '+data.get('project')+'\n\nMessage:\n'+data.get('message');
     navigator.clipboard?.writeText(brief);
     alert('Your project brief has been copied. You can paste it into LinkedIn and send it.');
-    window.open('https://ir.linkedin.com/in/mohammad-mohebianfar-32852b229','_blank','noopener,noreferrer');
+    window.open('https://www.linkedin.com/in/mohammadmohebianfar','_blank','noopener,noreferrer');
   });
 }
