@@ -88,3 +88,57 @@
 @media(max-width:380px){
   .project-visual{padding:10px}.project-visual .product-screen,.project-visual .route-card,.project-visual .admin-card,.project-visual .shop-card,.project-visual .cafe-card,.project-visual .freelance-card{width:min(92%,270px);max-width:270px}
 }
+
+/* ===== PORTFOLIO UPGRADE ===== */
+.build-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.build-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:25px;min-height:210px;transition:.3s}
+.build-card:hover,.service-item:hover,.repo-card:hover{transform:translateY(-4px);border-color:#383d4b}
+.build-card>span{font:10px "Space Grotesk";color:#646b7b}
+.build-card b{display:block;font:600 20px "Space Grotesk";margin-top:35px}
+.build-card p{font-size:11px;color:var(--muted);line-height:1.7}
+.services-section{padding-top:20px}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.service-item{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:21px;display:flex;flex-direction:column;gap:8px;transition:.3s}
+.service-item b{font:600 15px "Space Grotesk"}
+.service-item span{font-size:11px;color:var(--muted);line-height:1.65}
+.repo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.repo-card{display:flex;flex-direction:column;min-height:190px;padding:23px;background:var(--panel);border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--text);transition:.3s}
+.repo-card span{font-size:8px;letter-spacing:1px;color:#737987}
+.repo-card b{font:600 21px "Space Grotesk";margin-top:28px}
+.repo-card small{font-size:11px;color:var(--muted);line-height:1.6;margin-top:8px}
+.repo-card strong{font-size:10px;margin-top:auto;color:var(--accent2)}
+.project-details-btn{display:inline-flex;align-items:center;gap:8px;margin-left:12px;border:0;background:none;color:#a7adbc;font:700 11px Inter;cursor:pointer;padding:0}
+.project-details-btn:hover{color:var(--accent2)}
+.project-modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+.project-modal.open{display:flex}
+.modal-backdrop{position:absolute;inset:0;background:rgba(3,4,8,.78);backdrop-filter:blur(8px)}
+.modal-card{position:relative;z-index:2;width:min(680px,100%);max-height:85vh;overflow:auto;padding:32px;background:linear-gradient(145deg,#11151e,#0b0e14);border:1px solid #303541;border-radius:22px;box-shadow:0 30px 100px rgba(0,0,0,.6)}
+.modal-close{position:absolute;right:18px;top:15px;width:34px;height:34px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--text);font-size:22px;cursor:pointer}
+.modal-card h2{font:600 34px "Space Grotesk";margin:14px 0 10px;letter-spacing:-1px}
+.modal-card p{color:var(--muted);font-size:13px;line-height:1.8}
+.project-form{max-width:700px;margin:38px auto 0;padding-top:30px;border-top:1px solid var(--line);display:grid;gap:10px;text-align:left}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.project-form input,.project-form textarea{width:100%;box-sizing:border-box;background:#0b0e14;border:1px solid #292e39;border-radius:11px;padding:13px 14px;color:var(--text);font:12px Inter;outline:none}
+.project-form textarea{resize:vertical;min-height:110px}
+.project-form input:focus,.project-form textarea:focus{border-color:#4b5263}
+.project-form button{border:0;justify-content:center;cursor:pointer;margin-top:2px}
+.project-form small{color:#626a7b;font-size:9px;text-align:center}
+
+/* ===== RESPONSIVE UPGRADE ===== */
+@media(max-width:900px){
+  .build-grid{grid-template-columns:1fr 1fr}
+  .services-grid{grid-template-columns:1fr 1fr}
+  .repo-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  .build-grid,.services-grid,.repo-grid{grid-template-columns:1fr}
+  .build-card{min-height:auto;padding:20px}
+  .build-card b{margin-top:22px;font-size:19px}
+  .service-item{padding:18px}
+  .repo-card{min-height:165px;padding:19px}
+  .repo-card b{font-size:19px;margin-top:20px}
+  .modal-card{padding:25px 19px;border-radius:17px}
+  .modal-card h2{font-size:27px;padding-right:30px}
+  .form-row{grid-template-columns:1fr}
+  .project-form{margin-top:28px;padding-top:24px}
+}
