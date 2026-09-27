@@ -142,3 +142,8 @@
   .form-row{grid-template-columns:1fr}
   .project-form{margin-top:28px;padding-top:24px}
 }
+
+
+/* Hero heading size refinement */
+.hero-copy h1{font-size:clamp(44px,5vw,68px)}
+@media(max-width:640px){.hero-copy h1{font-size:clamp(34px,9vw,46px);line-height:1.05}}
