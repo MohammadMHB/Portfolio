@@ -75,3 +75,16 @@
 .contact-meta{color:#626a7b}
 .contact-meta span{color:#626a7b}
 .inventory-route{width:min(82%,330px)}
+
+/* Final mobile project visuals */
+@media(max-width:640px){
+  .project-visual{overflow:hidden;display:flex;align-items:center;justify-content:center;padding:14px}
+  .project-visual .product-screen,.project-visual .route-card,.project-visual .admin-card,.project-visual .shop-card,.project-visual .cafe-card,.project-visual .freelance-card{width:min(88%,300px);max-width:300px;box-sizing:border-box;margin:0;transform:none}
+  .product-screen{padding:10px}
+  .route-card,.admin-card,.shop-card,.cafe-card,.freelance-card{padding:16px}
+  .route-card b{font-size:10px}.route-card>span{font-size:9px;margin:5px 0 13px}.route-card small,.cafe-card small{font-size:7px;margin-top:10px}
+  .admin-card{height:135px}.chart{height:62px}.shop-card{gap:12px}.product-dot{width:58px;height:72px}.cafe-card b{font-size:15px}.cafe-bars{height:52px;margin-top:12px}.freelance-card b{font-size:12px}.freelance-card span{font-size:8px;margin-bottom:12px}
+}
+@media(max-width:380px){
+  .project-visual{padding:10px}.project-visual .product-screen,.project-visual .route-card,.project-visual .admin-card,.project-visual .shop-card,.project-visual .cafe-card,.project-visual .freelance-card{width:min(92%,270px);max-width:270px}
+}
