@@ -214,3 +214,196 @@ footer{
   .profile-card{box-shadow:0 18px 45px rgba(25,35,55,.10)}
   .project{box-shadow:0 6px 22px rgba(16,24,40,.045)}
 }
+
+
+/* ===== DARK PREMIUM REDESIGN ===== */
+:root{
+  --bg:#08090d;
+  --panel:#0e1016;
+  --panel2:#13161e;
+  --line:#252a35;
+  --text:#f5f7fb;
+  --muted:#9299a9;
+  --accent:#7c5cff;
+  --accent2:#a991ff;
+  --green:#55d6a4;
+  --max:1180px;
+}
+body{background:var(--bg);color:var(--text)}
+.nav{
+  background:rgba(8,9,13,.72);
+  backdrop-filter:blur(20px);
+}
+.nav:after{
+  content:"";position:absolute;left:22px;right:22px;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,#252a35 20%,#252a35 80%,transparent);
+}
+.brand span{background:#10121a;border-color:#303542}
+.nav nav a,.nav-cta{color:#858c9c}
+.nav-cta{border-color:#2b303b;background:#0d0f15}
+.hero{gap:80px}
+.hero:before{
+  width:720px;height:720px;left:-300px;top:-180px;
+  background:radial-gradient(circle,rgba(124,92,255,.17),transparent 65%);
+}
+.hero:after{
+  content:"";position:absolute;width:420px;height:420px;right:-220px;bottom:20px;
+  border-radius:50%;background:radial-gradient(circle,rgba(45,212,191,.06),transparent 68%);
+  pointer-events:none;
+}
+.hero h1{
+  font-weight:600;
+  letter-spacing:-5px;
+}
+.hero h1 em,.contact h2 em{color:var(--accent2)}
+.eyebrow,.label{color:#9aa1b1}
+.btn.primary{
+  background:linear-gradient(135deg,#8b70ff,#6547e8);
+  color:white;
+  box-shadow:0 10px 30px rgba(124,92,255,.18);
+}
+.btn.primary:hover{box-shadow:0 15px 40px rgba(124,92,255,.28)}
+.btn.ghost{background:#0d0f15;border-color:#292e39}
+.btn.ghost:hover{border-color:#4a5060;background:#11141c}
+.mini-proof{gap:55px}
+.mini-proof strong{font-size:27px}
+.hero-art{height:520px}
+.orb-a{
+  width:300px;height:300px;top:15px;right:-5px;
+  background:rgba(124,92,255,.18);
+}
+.orb-b{background:rgba(45,212,191,.08)}
+.profile-card{
+  background:linear-gradient(145deg,rgba(19,22,31,.97),rgba(9,11,16,.96));
+  border:1px solid #2b3040;
+  border-radius:28px;
+  box-shadow:0 40px 120px rgba(0,0,0,.58),inset 0 1px rgba(255,255,255,.055);
+  transform:rotate(1.2deg);
+}
+.profile-card:before{
+  content:"";display:block;height:2px;margin:-22px -22px 20px;
+  background:linear-gradient(90deg,transparent,#7c5cff,transparent);
+  opacity:.7;
+}
+.avatar{
+  background:linear-gradient(135deg,#241d4a,#171827);
+  border-color:#41366e;
+  color:#b7a8ff;
+}
+.profile-grid>div,.code-line{
+  background:rgba(7,9,14,.72);
+  border-color:#242a36;
+}
+.profile-grid>div:hover{border-color:#3a335b}
+.code-line em{color:#a991ff}
+.code-line strong{color:#65e0b0}
+.status{border-top-color:#242934}
+.section{position:relative}
+.section-head h2,.about h2{
+  letter-spacing:-2.8px;
+}
+.section-head p{color:#858d9d}
+.projects{gap:18px}
+.project{
+  background:linear-gradient(145deg,#10131a,#0b0d12);
+  border-color:#242a35;
+  border-radius:22px;
+  box-shadow:0 15px 50px rgba(0,0,0,.16);
+}
+.project:hover{
+  transform:translateY(-7px);
+  border-color:#3b4050;
+  box-shadow:0 25px 70px rgba(0,0,0,.3);
+}
+.project.compact{background:linear-gradient(135deg,#11141b,#0b0d12)}
+.project-visual{border-bottom-color:#242a35}
+.featured .project-visual{border-right-color:#242a35}
+.fitcoach{
+  background:
+    radial-gradient(circle at 65% 38%,rgba(124,92,255,.34),transparent 42%),
+    radial-gradient(circle at 20% 90%,rgba(45,212,191,.07),transparent 35%),
+    linear-gradient(145deg,#111321,#171329);
+}
+.barsu{
+  background:radial-gradient(circle at 50% 50%,rgba(45,190,210,.16),transparent 55%),#0d1519;
+}
+.cafe{
+  background:radial-gradient(circle at 50% 50%,rgba(244,169,82,.14),transparent 55%),#15110d;
+}
+.admin{
+  background:radial-gradient(circle,rgba(124,92,255,.10),transparent 55%),#101218;
+}
+.shop{
+  background:radial-gradient(circle,rgba(244,169,82,.12),transparent 55%),#15120f;
+}
+.freelance{
+  background:radial-gradient(circle,rgba(80,120,255,.14),transparent 55%),#0d111a;
+}
+.project-tag{
+  background:rgba(7,9,14,.52);
+  border-color:rgba(255,255,255,.13);
+  color:#b7bdc9;
+  backdrop-filter:blur(10px);
+}
+.product-screen,.route-card,.admin-card,.shop-card,.cafe-card,.freelance-card{
+  background:rgba(13,16,24,.92);
+  border-color:#303645;
+  box-shadow:0 25px 80px rgba(0,0,0,.5);
+}
+.product-screen{transform:rotate(-3deg)}
+.screen-stats i{background:#171b25;border-color:#292f3c}
+.screen-chart{
+  background:linear-gradient(170deg,transparent 55%,#7c5cff44 56%,transparent 58%),linear-gradient(160deg,transparent 43%,#7c5cff77 44%,transparent 46%);
+}
+.route-line{background:#293239}
+.route-line i{background:#55d6c0}
+.cafe-bars i{background:#765334}
+.chart{
+  background:linear-gradient(170deg,transparent 55%,#7c5cff33 56%,transparent 57%),linear-gradient(160deg,transparent 42%,#7c5cff66 43%,transparent 44%);
+}
+.project-info{padding:27px}
+.project-info h3,.compact h3{font-size:28px}
+.chips span,.about-tags span{
+  background:#10131a;
+  border-color:#292f3b;
+  color:#969eae;
+}
+.project-link:hover,.text-link:hover{color:#a991ff}
+.numbers{
+  background:linear-gradient(180deg,rgba(124,92,255,.025),transparent);
+  border-color:#252a35;
+}
+.number{border-right-color:#252a35}
+.number strong{font-size:54px}
+.number span{color:#d7dbe4}
+.number small{color:#707889}
+.about-card p{color:#8d95a5}
+.timeline{border-left-color:#2b303b}
+.timeline-item:before{
+  background:var(--accent);
+  box-shadow:0 0 14px rgba(124,92,255,.5);
+}
+.timeline-item p{color:#777f90}
+.skill-card{
+  background:linear-gradient(145deg,#10131a,#0b0d12);
+  border-color:#252a35;
+}
+.skill-card:hover{border-color:#383e4d;transform:translateY(-4px)}
+.skill-card p{color:#858d9d}
+.contact{
+  border-top-color:#252a35;
+  background:
+    radial-gradient(circle at 50% 20%,rgba(124,92,255,.14),transparent 42%),
+    linear-gradient(180deg,#0b0d12,#08090d);
+}
+.contact-meta{color:#707889}
+footer{border-top-color:#252a35;color:#666f80}
+@media(max-width:640px){
+  .hero{gap:35px}
+  .hero h1{letter-spacing:-2.5px}
+  .profile-card{transform:none}
+  .profile-card:before{margin:-16px -16px 16px}
+  .project{border-radius:17px}
+  .project-info{padding:21px 18px}
+  .number strong{font-size:clamp(28px,8vw,40px)}
+}
