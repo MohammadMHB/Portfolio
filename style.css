@@ -70,3 +70,8 @@
 .inventory-icon:before{content:"";position:absolute;left:31px;top:0;width:88px;height:2px;background:currentColor;border-radius:2px;opacity:.5}
 .inventory-icon:after{content:"";position:absolute;left:75px;top:0;width:2px;height:18px;background:currentColor;opacity:.5}
 @media(max-width:640px){.inventory-icon{transform:scale(.9);margin-bottom:8px}}
+
+/* Contact phone neutral color */
+.contact-meta{color:#626a7b}
+.contact-meta span{color:#626a7b}
+.inventory-route{width:min(82%,330px)}
