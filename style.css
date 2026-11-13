@@ -151,3 +151,78 @@
 
 /* Center hero proof items on mobile */
 @media(max-width:640px){.mini-proof{justify-items:center;text-align:center}.mini-proof>div{display:flex;flex-direction:column;align-items:center}}
+
+
+/* ===== WHITE & BLUE PORTFOLIO THEME ===== */
+:root{
+  --bg:#ffffff;--panel:#f7faff;--panel2:#eef5ff;--line:#dce7f5;
+  --text:#14243a;--muted:#61738c;--accent:#2675e8;--accent2:#1558b5;
+  --green:#15966a;--max:1180px;
+}
+html,body{background:#fff;color:var(--text)}
+body{background:linear-gradient(180deg,#fff 0%,#f8fbff 55%,#fff 100%)}
+.noise{opacity:.012}
+.nav{background:rgba(255,255,255,.88);backdrop-filter:blur(16px)}
+.brand span{border-color:#cbdcf2;background:#edf5ff;color:#1764c4}
+.nav nav a,.nav-cta{color:#526780}
+.nav nav a:hover,.nav-cta:hover{color:#1764c4}
+.nav-cta{border-color:#cbdcf2;background:#f7faff}
+.hero:before{background:radial-gradient(circle,rgba(38,117,232,.12),transparent 68%)}
+.eyebrow{color:#42658d}
+.eyebrow i,.status i,.timeline-item:before{background:#2382ed}
+.hero h1 em,.contact h2 em{color:#2675e8}
+.hero-text,.section-head p,.project-info p,.about-card p,.skill-card p,.build-card p{color:#61738c}
+.btn.primary{background:#2675e8;color:#fff;border:1px solid #2675e8;box-shadow:0 9px 24px rgba(38,117,232,.18)}
+.btn.primary:hover{background:#155fc7}
+.btn.ghost{background:#fff;border:1px solid #cbdcf2;color:#24517f}
+.mini-proof strong{color:#1764c4}
+.profile-card,.project,.build-card,.service-item,.skill-card,.repo-card,.number,.about-card,.timeline{
+  border-color:#dce7f5
+}
+.profile-card{background:linear-gradient(145deg,#fff,#f1f7ff);box-shadow:0 24px 70px rgba(31,79,133,.12)}
+.profile-top,.profile-grid>div,.code-line{border-color:#dce7f5}
+.profile-grid>div{background:#f7faff}
+.profile-grid small,.profile-top span{color:#71839b}
+.code-line{background:#edf5ff;color:#42658d}
+.code-line em,.code-line strong{color:#1764c4}
+.status{color:#56708e}
+.orb-a{background:rgba(67,145,255,.15);filter:blur(2px)}
+.orb-b{background:rgba(80,174,255,.12);filter:blur(2px)}
+.section-head .label,.label{color:#2675e8}
+.project,.build-card,.service-item,.skill-card,.repo-card{background:#fff;box-shadow:0 8px 28px rgba(27,65,110,.045)}
+.project:hover,.build-card:hover,.service-item:hover,.repo-card:hover{border-color:#a9c9f2;box-shadow:0 14px 34px rgba(27,85,155,.09)}
+.project-visual{background:linear-gradient(145deg,#edf5ff,#f8fbff);border-color:#dce7f5}
+.project-info .num{color:#7890ad}
+.tech,.private-note{color:#71839b}
+.chips span,.about-tags span{background:#f4f8ff;border-color:#dce7f5;color:#536d8c}
+.project-link,.text-link,.repo-card strong{color:#176bd1}
+.project-details-btn{color:#45698f}
+.numbers{border-color:#dce7f5}
+.number{border-color:#dce7f5}
+.number strong{color:#1764c4}
+.number small{color:#71839b}
+.timeline{border-left-color:#dce7f5}
+.timeline-item span,.timeline-item p{color:#71839b}
+.build-card>span,.skill-card>span{color:#7b91ad}
+.skill-card div{color:#3f6fa9}
+.contact{border-color:#dce7f5;background:radial-gradient(circle at 50% 35%,rgba(38,117,232,.10),transparent 48%)}
+.contact-meta,.contact-meta span,footer{color:#71839b}
+.modal-backdrop{background:rgba(19,43,75,.35)}
+.modal-card{background:linear-gradient(145deg,#fff,#f3f8ff);border-color:#d5e3f4;box-shadow:0 30px 90px rgba(27,65,110,.2)}
+.modal-card p{color:#61738c}
+.modal-close{background:#f4f8ff;border-color:#dce7f5;color:#1d3554}
+.project-form{border-color:#dce7f5}
+.project-form input,.project-form textarea{background:#fff;border-color:#d2e0f1;color:#14243a}
+.project-form input::placeholder,.project-form textarea::placeholder{color:#8799b0}
+.project-form input:focus,.project-form textarea:focus{border-color:#6ba4ed;box-shadow:0 0 0 3px rgba(38,117,232,.1)}
+.project-form small{color:#71839b}
+footer{border-color:#dce7f5}
+.mobile-menu{background:rgba(255,255,255,.98);border-color:#dce7f5;box-shadow:0 20px 50px rgba(31,79,133,.14)}
+.mobile-menu a{color:#1c3555;border-color:#e6eef8}
+.menu-toggle{background:#f5f9ff;border-color:#dce7f5}
+.menu-toggle span{background:#24466e}
+@media(max-width:640px){
+  .nav{background:rgba(255,255,255,.94)}
+  .profile-card{box-shadow:0 18px 45px rgba(31,79,133,.12)}
+  .numbers{background:#f8fbff;border-block-color:#dce7f5}
+}
